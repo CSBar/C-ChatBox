@@ -125,15 +125,15 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\C-ChatDatabase.DataAccess\VChatDatabase.DataAccess.csproj">
+    <ProjectReference Include="..\C-ChatDatabase.DataAccess\C-ChatDatabase.DataAccess.csproj">
       <Project>{9ca0c16d-55cd-4ff0-b233-535b34f9ef7e}</Project>
       <Name>C-ChatDatabase.DataAccess</Name>
     </ProjectReference>
-    <ProjectReference Include="..\C-ChatDatabase.Entities\VChatDatabase.Entities.csproj">
+    <ProjectReference Include="..\C-ChatDatabase.Entities\C-ChatDatabase.Entities.csproj">
       <Project>{f082cbcd-0b1d-4a8f-a136-7eb5f51870b8}</Project>
       <Name>C-ChatDatabase.Entities</Name>
     </ProjectReference>
-    <ProjectReference Include="..\C-ChatDatabase.Framework\VChatDatabase.Framework.csproj">
+    <ProjectReference Include="..\C-ChatDatabase.Framework\C-ChatDatabase.Framework.csproj">
       <Project>{76567ada-14cd-4d7b-8fe1-95a50a8ef58b}</Project>
       <Name>C-ChatDatabase.Framework</Name>
     </ProjectReference>
