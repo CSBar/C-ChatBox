@@ -13,7 +13,7 @@ using C-ChatDatabase.DataAccess;
 
 namespace C-ChatBox{
     public partial class Profile : MetroFramework.Forms.MetroForm{
-        C-ChatData da = new VChatData();
+        C-ChatData da = new C-ChatData();
 
         public string title, email;
         public static string myIP, friendIP;
